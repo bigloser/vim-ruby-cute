@@ -12,6 +12,7 @@ syntax match rubyNiceOperator ">=" conceal cchar=≥
 syntax match rubyNiceOperator "->" conceal cchar=⇾
 syntax match rubyNiceOperator "=>" conceal cchar=⇒
 
+syntax match rubyNiceOperator "<<" conceal cchar=«
 syntax match rubyNiceOperator "!=" conceal cchar=≠
 syntax match rubyNiceOperator "=\~" conceal cchar=≅
 syntax match rubyNiceOperator "!\~" conceal cchar=≆
