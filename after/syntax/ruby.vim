@@ -9,8 +9,10 @@ syntax keyword rubyOperator is
 syntax match rubyNiceOperator "<=" conceal cchar=≤
 syntax match rubyNiceOperator ">=" conceal cchar=≥
 
-syntax match rubyNiceOperator "=>" conceal cchar=⇾
+syntax match rubyNiceOperator "->" conceal cchar=⇾
+syntax match rubyNiceOperator "=>" conceal cchar=⇒
 
+syntax match rubyNiceOperator "<<" conceal cchar=«
 syntax match rubyNiceOperator "!=" conceal cchar=≠
 syntax match rubyNiceOperator "=\~" conceal cchar=≅
 syntax match rubyNiceOperator "!\~" conceal cchar=≆
